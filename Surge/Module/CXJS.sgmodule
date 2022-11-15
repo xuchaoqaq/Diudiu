@@ -1,0 +1,7 @@
+#!name= 财新解锁
+#!desc= 财新解锁
+[Script]
+ 财新解锁= type=http-request,pattern=^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth|groupImageValidate),requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/caixin.js,script-update-interval=0
+
+[MITM]
+hostname= %APPEND% gateway.caixin.com
