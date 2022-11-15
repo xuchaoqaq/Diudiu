@@ -1,0 +1,7 @@
+#!name= Picsart
+#!desc= 美易——解锁VIP
+[Script]
+ 美易——解锁VIP= type=http-response,pattern=^https:\/\/api\.meiease\.cn\/shop\/subscription\/validate,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Picsart.js,script-update-interval=0
+
+[MITM]
+hostname= %APPEND% api.meiease.cn
