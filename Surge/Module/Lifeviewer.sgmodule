@@ -1,0 +1,9 @@
+#!name=Lifeviewer-每日计划——解锁订阅
+#!desc= 转换原作者 彭于晏 的圈X脚本
+
+[Script]
+
+Lifeviewer = type=http-response,pattern=^https:\/\/api\.apphud\.com\/v1\/subscriptions,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Lifeviewer.js
+
+[MITM]
+hostname = %APPEND% api.apphud.com
