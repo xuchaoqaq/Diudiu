@@ -1,0 +1,10 @@
+#!name= 射手大陆—9999装备等级
+#!desc= 转换 原作者 彭于晏💞  的圈X脚本
+
+
+[Script]
+
+ssdl = type=http-response,pattern=^https?:\/\/bowland\.bytedance\.com\/ohayoo\/lightboat\/bowland\/Equip\/GetAllEquips*?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/yx/ssdl.js
+
+[MITM]
+hostname = %APPEND% bowland.bytedance.com
