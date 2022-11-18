@@ -20,11 +20,5 @@
 # 下面两条来自他人 暂不知是哪个app
 ^https?:\/\/.+?\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ - reject
 
-[Script]
-
-
-
-[Map Local]
-
 [MITM]
 hostname = %APPEND% *.pangolin-sdk-toutiao *.pangolin-sdk-toutiao.* *.pstatp.com *.pstatp.com.* *.pglstatp-toutiao.com.* *.pglstatp-toutiao.com gurd.snssdk.com gurd.snssdk.com.* *default.ixigua.com
