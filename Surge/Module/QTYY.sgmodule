@@ -1,7 +1,7 @@
 #!name=趣听去弹窗
 #!desc=趣听音乐  转自墨鱼规则
 [Script]
- 趣听音乐VIP= type=http-response,pattern=^https?:\/\/api\.bspapp\.com\/client$,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/xuchaoqaq/Diudiu/main/Surge/JS/QTYY.js,script-update-interval=0
+ 趣听音乐VIP= type=http-response,pattern=^https?:\/\/api\.bspapp\.com\/client$,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/xuchaoqaq/Diudiu/main/Surge/JS/QTYY,script-update-interval=0
 
 [MITM]
 hostname= %APPEND% api.bspapp.com
