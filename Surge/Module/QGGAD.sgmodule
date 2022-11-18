@@ -1,0 +1,74 @@
+#!name= 去广告合集
+#!desc= 持续更新
+
+[Url Rewrite]
+
+[Script]
+
+[Map Local]
+#趣听音乐屏蔽升级弹窗
+^https?:\/\/api\.bspapp\.com\/client data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#看书神器屏蔽广告
+^https?:\/\/piq\.in-neo\.cn data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#网速管家屏蔽开屏广告,番茄畅听屏蔽开屏广告
+^https?:\/\/.*\.*toutiao\.com data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#平安好车主屏蔽开屏广告
+^https?:\/\/iobs\.pingan\.com\.cn data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#天翼云盘屏蔽开屏广告
+^https?:\/\/api\.cloud\.189\.cn\/guns\/getOpenscreenBanners\.action data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#喜马拉雅屏蔽开屏广告
+^https?:\/\/adse\.ximalaya\.com data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#爱奇艺屏蔽开屏广告
+^https?:\/\/kjp\.cupid\.iqiyi\.com data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#百度地图屏蔽开屏广告
+^https?:\/\/afd\.baidu\.com data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#汽车之家屏蔽开屏广告
+^https?:\/\/adproxy\.autohome\.com\.cn data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#爱思助手屏蔽开屏广告
+^https?:\/\/list\-app\-m\.i4\.cn\/getopfstadinfo\.xhtml data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#财新屏蔽开屏广告，需卸载重装
+^https?:\/\/mapiv5\.caixin\.com\/app_api\/device\/getcode data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#懂球帝屏蔽开屏广告
+^https?:\/\/ap\.dongqiudi\.com data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#作业帮屏蔽开屏广告
+^https?:\/\/syh\.zybang\.com data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#铁路12306屏蔽开屏广告
+^https?:\/\/ad\.12306\.cn data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#智联招聘屏蔽开屏广告
+^https?:\/\/cgate\.zhaopin\.com data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#丰巢屏蔽开屏广告
+^https?:\/\/sdk\.pairmb\.com\/get\/sdk\/ad\/request\.do data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#555影视去广告
+^https?:\/\/vip7\.fzwdyy\.cn:8083\/api\/getAdvertInfo data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#得物屏蔽开屏广告
+^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement\/ data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#斗鱼直播屏蔽开屏广告
+^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#高德地图屏蔽开屏广告
+^https?:\/\/m5.amap.com\/ws\/valueadded\/ data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#最右屏蔽开屏广告，需卸载重装
+^https?:\/\/adapi\.izuiyou\.com data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#keep屏蔽开屏广告
+^https?:\/\/kad\.gotokeep\.com\/op-engine-webapp\/v\d\/ad data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#网易邮箱大师屏蔽开屏广告
+^https?:\/\/appconf\.mail\.163\.com\/mmad\/get\.do data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#京东屏蔽开屏广告
+^https?:\/\/api\.m\.jd\.com\/client\.action\*functionId=start data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+^https?:\/\/api\.m\.jd.com\/client\.action\*functionId=queryMaterialAdverts data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+^https?:\/\/api\.m\.jd\.com\/client\.action*functionId=msgEntranceV710 data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+^https?:\/\/api\.m\.jd\.com\/client\.action*functionId=xview2Config data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#易车屏蔽开屏广告
+^https?:\/\/adx\.yiche\.com data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#花椒直播屏蔽开屏广告
+^https?:\/\/image\.huajiao\.com data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+^https?:\/\/setting\.huajiao\.com/config/multi data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#埋堆堆屏蔽开屏广告
+^https?:\/\/mob\.mddcloud\.com\.cn data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#百度文库屏蔽开屏广告
+^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#简讯屏蔽开屏广告
+^https?:\/\/api\.tipsoon\.com\/api\/v1\/top\/ad data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+#知乎屏蔽开屏广告
+^https?:\/\/api.zhihu.com/commercial_api/real_time_launch_v2 data="https://raw.githubusercontent.com/Keywos/Rule/main/mocks/reject-dict.json"
+[MITM]
+hostname = %APPEND% api.bspapp.com,*.*toutiao.com,iobs.pingan.com.cn,api.cloud.189.cn,piq.in-neo.cn,kjp.cupid.iqiyi.com,afd.baidu.com,adse.ximalaya.com,adproxy.autohome.com.cn,list-app-m.i4.cn,mapiv5.caixin.com,ap.dongqiudi.com,syh.zybang.com,ad.12306.cn,cgate.zhaopin.com,sdk.pairmb.com,vip7.fzwdyy.cn,app.dewu.com,rtbapi.douyucdb.cn,m5.amap.com,adapi.izuiyou.com,kad.gotokeep.com,appconf.mail.163.com,api.m.jd.com,adx.yiche.com,setting.huajiao.com,image.huajiao.com,mob.mddcloud.com.cn,appwk.baidu.com,api.tipsoon.com,api.zhihu.com
